@@ -1,10 +1,12 @@
-import {combineReducers} from 'redux';
-import { QuanLySinhVienReducer } from '../reducers/QuanLySinhVienReducer';
+import { createStore, combineReducers } from "redux";
+import { QuanLySinhVienReducer } from './QuanLySinhVienReducer';
 
-
-
-//store tổng ứng dụng
-export const rootReducer = combineReducers({
-QuanLySinhVienReducer
-
+const rootReducer = combineReducers({
+    QuanLySinhVienReducer: QuanLySinhVienReducer,
 });
+
+export const store = createStore(
+    rootReducer,
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
+
