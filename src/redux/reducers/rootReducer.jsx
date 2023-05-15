@@ -1,5 +1,6 @@
 import {combineReducers} from 'redux';
-import {QuanLySinhVienReducer} from '../reducers/QuanLySinhVienReducer';
+import { QuanLySinhVienReducer } from '../reducers/QuanLySinhVienReducer';
+
 
 
 //store tổng ứng dụng

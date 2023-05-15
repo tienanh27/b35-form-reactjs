@@ -1,7 +1,7 @@
 
 
 const stateDefault = {
-    mangSinhVien: [{maSV:1, hoTen:'Nguyễn Tiến A', soDienThoai:'0909090909', email'abc@gmail.com'}]
+    mangSinhVien: [{maSV:1, hoTen:'Nguyễn Tiến A', soDienThoai:'0909090909', email:'abc@gmail.com'}]
 }
 
 
